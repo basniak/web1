@@ -1,0 +1,87 @@
+#esquerda {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    min-height: 100vh;
+    background-image: url('./img/splashbkg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+#direita {
+    background: cadetblue;
+    width: 50%;
+    height: 100%;
+    min-height: 100vh;
+    display: inline-block;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+.conteudo {
+    margin: 90px;
+}
+
+.texto {
+    margin-top: 40px
+}
+
+.link-botao {
+    border: 1px solid #fff;
+    padding: 15px
+}
+
+.negrito {
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 12.8px;
+}
+
+
+.texto2 {
+    margin-top: 5px;    
+    line-height: 1.5em;
+    font-size: 12px;
+    max-width: 500px;
+}
+
+.saibamais {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #fff;
+    margin-left:50px
+}
+
+.links{
+    color: #fff;
+    font-size: 12px;
+    padding-right: 10px;
+
+}
+.icons{
+    width: 6.31px;
+    height: 13px;
+    margin-top: 20px;
+    padding-right: 10px;
+    
+}
+
+
